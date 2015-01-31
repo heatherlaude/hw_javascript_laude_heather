@@ -18,3 +18,5 @@ var numba = function(string) {
     }
     
 };
+
+numba("7");
