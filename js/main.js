@@ -24,3 +24,15 @@ numba("7");
 numba("seventy");
 
 numba("university");
+
+function inception(callback, value) {
+    callback(value);
+}
+
+value = "Ferris Bueller's Day Off";
+
+function favoriteMovie() {
+    console.log(value+" "+"is a fantastic movie.");
+}
+                
+inception(favoriteMovie);
