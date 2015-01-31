@@ -37,3 +37,5 @@ var reagan = {
     party: "Republican",
     yearsOfPresidency: "1981-1989"
 };
+
+var presidents = [obama, georgeWBush, clinton, georgeHWBush, reagan];
