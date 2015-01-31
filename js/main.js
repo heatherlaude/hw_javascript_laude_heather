@@ -22,3 +22,5 @@ var numba = function(string) {
 numba("7");
 
 numba("seventy");
+
+numba("university");
