@@ -29,10 +29,8 @@ function inception(callback, value) {
     callback(value);
 }
 
-value = "Ferris Bueller's Day Off";
-
-function favoriteMovie() {
+function favoriteMovie( value ) {
     console.log(value + " " + "is a fantastic movie.");
 }
-                
-inception(favoriteMovie);
+
+inception( favoriteMovie, "Ferris Bueller's Day Off");
